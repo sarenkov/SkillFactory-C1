@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script async src="scripts/timer.js"></script>
+</head>
+
+<body>
+    <h1 class="countdown-title">Countdown Clock</h1>
+    <section class="countdown">
+        <div class="countdown-number">
+            <p class="minutes countdown-time"></p>
+            <p class="countdown-text">Minutes</p>
+            <input type="number" class="minutes-input" min="0" max="59" value="0">
+        </div>
+        <div class="countdown-number">
+            <p class="seconds countdown-time"></p>
+            <p class="countdown-text">Seconds</p>
+            <input type="number" class="seconds-input" min="0" max="59" value="0">
+        </div>
+    </section>
+    <div class="buttons">
+        <button class="minus-minute">-1 min</button>
+        <button class="minus-second">-1 sec</button>
+        <button class="start">start</button>
+        <button class="restart" style="display: none">Restart</button>
+        <button class="plus-second">+1 sec</button>
+        <button class="plus-minute">+1 min</button>
+    </div>
+    <div class="message">
+
+    </div>
+</body>
+
+</html>
